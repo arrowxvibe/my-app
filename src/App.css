@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #333;
+  text-align: left; /* Changed to left alignment */
+  margin-bottom: 10px; /* Added margin for spacing */
+}
+
+.subtitle {
+  color: #666;
+  text-align: left; /* Changed to left alignment */
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 600px; /* Set a max-width for the button container */
+  margin: 0 auto; /* Center the button container */
+}
+
+.custom-button {
+  width: 160px; /* Further reduced width */
+  height: 40px; /* Further reduced height */
+  font-size: 13px; /* Slightly smaller font size */
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 3px; /* Slightly reduced border radius */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2px 5px; /* Reduced padding, especially vertical */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Slightly reduced shadow */
+}
+
+.custom-button:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.custom-button.active {
+  background-color: #58A399; /* Updated to the new green color */
+  color: white;
+}
+
+.custom-button.active:hover {
+  background-color: #4a8a81; /* Slightly darker shade for hover effect */
+}
+
+/* Add hover effect for buttons */
+.button-container button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.check-copies-content {
+  text-align: left;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.check-copies-info {
+  font-size: 12px;
+  color: #555;
+  line-height: 0.2;
+  text-align: center;
+}
+
+.form-content {
+  
+  padding: 20px;
+  border-radius: 5px;
+}
